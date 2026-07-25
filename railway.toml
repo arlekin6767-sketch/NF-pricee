@@ -1,8 +1,0 @@
-[build]
-builder = "nixpacks"
-buildCommand = "npm install --include=dev && npm run build"
-
-[deploy]
-startCommand = "npm start"
-restartPolicyType = "on_failure"
-restartPolicyMaxRetries = 10
